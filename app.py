@@ -9,7 +9,7 @@ app = Flask(__name__)
 # ------------------------------
 # SECURITY WARNING: Never hardcode API keys in production code. 
 # Use environment variables: os.getenv("GEMINI_API_KEY")
-API_KEY = "AIzaSyBPB8WkF_XkInDgq4s-9jzc_3stTpWhMLg" 
+API_KEY = "" 
 
 try:
     genai.configure(api_key=API_KEY)
